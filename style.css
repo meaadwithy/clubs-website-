@@ -1,0 +1,23 @@
+
+/* navbar for all pages */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 11px;
+    margin-top: 20px;
+
+    background-color: #fffdd8;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+}
+ .navbar a {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+.navbar a.active {
+    color: rgb(255, 156, 64);
+}
